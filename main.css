@@ -1,3 +1,14 @@
+/*install font*/
+@font-face {
+    font-family: charmonman;
+    src: url('../assets/fonts/Charmonman-Regular.ttf');
+}
+@font-face {
+    font-family: tajawal;
+    src: url('../assets/fonts/Tajawal-Regular.ttf');
+}
+
+
 .fitur {
     background: #1dd1a1;
 }
@@ -12,24 +23,26 @@ body {
 .header {
     width: 100%;
     overflow: hidden;
-    background: #ee5253;
+    background: linear-gradient(to left,#ee5253,#ff6b6b);
     padding-left: 40px;
 }
 .header .logo {
     font-size: 35px;
+    font-family: charmonman;
     float: left;
     margin-bottom: 30px;
     color: #ffff;
 }
 .header .navbar {
     float: right;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .header .navbar li {
     float: right;
     margin-left: 30px;
     font-size: 18px;
+    font-family: tajawal;
     display: block;
 }
 .header .navbar li a {
@@ -39,4 +52,24 @@ body {
 .header .navbar li a:hover {
     color: #222f3e;
     text-decoration: underline;
+}
+.desc {
+    font-family: Roboto;
+    font-size: 16px;
+    float: left;
+}
+.desc2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+}
+.icon-kelas {
+    Background: #c8d6e5;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url(../assets/trent-szmolnik-F5ae6ys2Mp8-unsplash.jpg);
+    background-size: cover;
+}
+.parent {
+    margin-top: 100px;
 }
